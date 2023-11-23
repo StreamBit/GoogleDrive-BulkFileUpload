@@ -62,7 +62,7 @@ def upload_files(service, folder_id, source_folder):
 
 def main():
     service = get_service()
-    folder_id = 'Your_Folder_ID'
+    folder_id = 'Your_Folder_ID'  # Replace with the Google Drive Folder ID (The string behind the last '/' of the folder URL)
     source_folder = 'C:\\Your_Path\\'  # Replace with the path to your folder
     upload_files(service, folder_id, source_folder)
 
